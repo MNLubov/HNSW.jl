@@ -1,23 +1,13 @@
-name = "HNSW"
-uuid = "540f64fa-c57e-11e8-081c-41422cda4629"
-authors = ["Jonas Isensee <jonas.isensee@web.de>"]
-version = "0.1.2"
-
-[deps]
-Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+name = "HNSWm"
+uuid = "ed94e2a7-9bb5-4030-9c04-0ecd8173d75b"
+authors = ["Maksim Lubov", ""]
+version = "0.1.0"
 
 [compat]
 julia = "1"
-Distances = "0.8, 0.9, 0.10"
-Reexport = "0.2, 1"
 
 [extras]
-NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 [targets]
-test = ["Test", "NearestNeighbors", "StaticArrays", "Statistics"]
+test = ["Test"]

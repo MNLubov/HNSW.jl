@@ -3,6 +3,11 @@ uuid = "ed94e2a7-9bb5-4030-9c04-0ecd8173d75b"
 authors = ["Maksim Lubov", ""]
 version = "0.1.0"
 
+[deps]
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
 [compat]
 julia = "1"
 
